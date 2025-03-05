@@ -1,0 +1,12 @@
+# Ignore all .mat files
+*.mat
+*.npy
+*.zip
+*.dat
+*.joblib
+
+# Except for the specific file you want to keep
+!/Data_Collection/GNURadio/Tag_Response/Data/OneSubcarrierHighDataRate/corr_signal.npy
+!/Data_Collection/GNURadio/Tag_Response/Data/OneSubcarrierLowDataRate/corr_signal.npy
+!/Data_Collection/GNURadio/Tag_Response/Data/TwoSubcarriersHighDataRate/corr_signal.npy
+!/Data_Collection/GNURadio/Tag_Response/Data/TwoSubcarriersLowDataRate/corr_signal.npy
